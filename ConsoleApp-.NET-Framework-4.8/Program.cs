@@ -10,16 +10,11 @@ namespace ConsoleApp_.NET_Framework_4._8
     {
         static void Main(string[] args)
         {
-           /*  Data Type ======================
-           * 
-           *   1. string - 2 bytes per character
-           *   2. char - 2 bytes
-           *   3. int - 4 bytes
-           *   4. long - 8 bytes
-           *   5. float - 4 bytes
-           *   6. double - 8 bytes
-           *   7. bool - 1 bytes
-           */
+           /****************************************************************
+            * 
+            *  Learn C# Basics
+            *  
+            ****************************************************************/
         }
     }
 }

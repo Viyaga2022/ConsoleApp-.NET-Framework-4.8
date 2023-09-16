@@ -1,4 +1,5 @@
 ﻿using ConsoleApp_.NET_Framework_4._8.Datatypes;
+using ConsoleApp_.NET_Framework_4._8.String;
 using System;
 
 namespace ConsoleApp_.NET_Framework_4._8
@@ -13,12 +14,17 @@ namespace ConsoleApp_.NET_Framework_4._8
              *  
              ****************************************************************/
 
-            DataType DtypeObj = new DataType();
+            Concatenation myObj = new Concatenation();
 
-            string a = "83";
-            int b = DtypeObj.StrToNum(a);
+            string[] strArray = { "Hello", " Friends", " I am Mohan.", " I am from Tamilnadu." };
 
-            Console.WriteLine(b + " " + b.GetType());
+            string concatString = myObj.ConcatString(strArray);
+
+            Console.WriteLine(concatString);
+
+            string concatString1 = myObj.Interpolation(strArray);
+
+            Console.WriteLine(concatString1);
         }
     }
 }

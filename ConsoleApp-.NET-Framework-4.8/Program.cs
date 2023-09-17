@@ -14,8 +14,8 @@ namespace ConsoleApp_.NET_Framework_4._8
              *  
              ****************************************************************/
 
-            Unary myObj = new Unary(10, 5);
-            myObj.UnaryOpr();
+            Comparision myObj = new Comparision(20, 10);
+            myObj.ComparisionOpr();
         }
     }
 }

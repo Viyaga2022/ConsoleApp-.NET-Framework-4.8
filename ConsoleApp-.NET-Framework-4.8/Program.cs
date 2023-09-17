@@ -2,7 +2,7 @@
 //using ConsoleApp_.NET_Framework_4._8.Datatypes;
 //using ConsoleApp_.NET_Framework_4._8.String;
 using ConsoleApp_.NET_Framework_4._8.ConsoleMethods;
-using ConsoleApp_.NET_Framework_4._8.OperatorsAndUses;
+using ConsoleApp_.NET_Framework_4._8.Operators;
 
 namespace ConsoleApp_.NET_Framework_4._8
 {
@@ -16,8 +16,8 @@ namespace ConsoleApp_.NET_Framework_4._8
              *  
              ****************************************************************/
 
-            Operators myObj = new Operators(10,5);
-            myObj.Arithmatic();
+            Arithmatic myObj = new Arithmatic(10,5);
+            myObj.ArithmaticOps();
         }
     }
 }

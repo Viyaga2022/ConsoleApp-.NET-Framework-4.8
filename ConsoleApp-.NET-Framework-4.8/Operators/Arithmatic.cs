@@ -4,20 +4,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp_.NET_Framework_4._8.OperatorsAndUses
+namespace ConsoleApp_.NET_Framework_4._8.Operators
 {
-    internal class Operators
+    internal class Arithmatic
     {
         private readonly int A;
         private readonly int B;
 
-        public Operators(int a, int b)
+        public Arithmatic(int a, int b)
         {
             A = a; 
             B = b; 
         }
 
-        public void Arithmatic ()
+        public void ArithmaticOps ()
         {
             int X = A + B;
             Console.WriteLine($"Add(+): {X}");

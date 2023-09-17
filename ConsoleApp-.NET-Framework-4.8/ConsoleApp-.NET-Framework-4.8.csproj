@@ -46,7 +46,7 @@
     <Compile Include="ConsoleMethods\_ConsoleMethods.cs" />
     <Compile Include="Datatypes\DataType.cs" />
     <Compile Include="Datatypes\TypeCasting.cs" />
-    <Compile Include="OperatorsAndUses\Operators.cs" />
+    <Compile Include="Operators\Arithmatic.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StringMethods\Concatenation.cs" />

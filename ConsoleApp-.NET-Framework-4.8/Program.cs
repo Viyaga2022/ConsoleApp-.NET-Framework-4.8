@@ -14,7 +14,7 @@ namespace ConsoleApp_.NET_Framework_4._8
              *  
              ****************************************************************/
 
-            IfElse myObj = new IfElse(23, 20);
+            SwitchAndTernary myObj = new SwitchAndTernary(16, 20);
             myObj.Compare();
         }
     }

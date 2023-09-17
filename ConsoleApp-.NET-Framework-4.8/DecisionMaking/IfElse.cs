@@ -21,7 +21,7 @@ namespace ConsoleApp_.NET_Framework_4._8.DecisionMaking
         {
             if (A == B)
             {
-                Console.WriteLine("A Equals B");
+                Console.WriteLine("A and B are in same age");
             }
             else if (A < B) 
             {

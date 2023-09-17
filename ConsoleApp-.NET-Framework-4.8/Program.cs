@@ -1,6 +1,8 @@
-﻿using ConsoleApp_.NET_Framework_4._8.Datatypes;
-using ConsoleApp_.NET_Framework_4._8.String;
-using System;
+﻿using System;
+//using ConsoleApp_.NET_Framework_4._8.Datatypes;
+//using ConsoleApp_.NET_Framework_4._8.String;
+using ConsoleApp_.NET_Framework_4._8.ConsoleMethods;
+
 
 namespace ConsoleApp_.NET_Framework_4._8
 {
@@ -14,17 +16,9 @@ namespace ConsoleApp_.NET_Framework_4._8
              *  
              ****************************************************************/
 
-            Concatenation myObj = new Concatenation();
-
-            string[] strArray = { "Hello", " Friends", " I am Mohan.", " I am from Tamilnadu." };
-
-            string concatString = myObj.ConcatString(strArray);
-
-            Console.WriteLine(concatString);
-
-            string concatString1 = myObj.Interpolation(strArray);
-
-            Console.WriteLine(concatString1);
+            _ConsoleMethods myObj = new _ConsoleMethods("Mohan", 23, "mohan@gmail.com", 9047123456);
+            myObj.Hi();
+            myObj.GetInput();
         }
     }
 }

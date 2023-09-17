@@ -25,7 +25,6 @@ namespace ConsoleApp_.NET_Framework_4._8.String
 
         public string Interpolation(string[] strings)
         {
-            int i = 0;
             string str = string.Concat(strings);
 
             string description = "Interpolation Method $,{}";

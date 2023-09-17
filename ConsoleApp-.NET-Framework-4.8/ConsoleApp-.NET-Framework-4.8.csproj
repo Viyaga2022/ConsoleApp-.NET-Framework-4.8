@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConsoleMethods\_ConsoleMethods.cs" />
     <Compile Include="Datatypes\DataType.cs" />
     <Compile Include="Datatypes\TypeCasting.cs" />
     <Compile Include="Program.cs" />
@@ -52,6 +53,12 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Collections\" />
+    <Folder Include="DecisionMaking\" />
+    <Folder Include="Methods\" />
+    <Folder Include="Oops\" />
+    <Folder Include="Operators\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

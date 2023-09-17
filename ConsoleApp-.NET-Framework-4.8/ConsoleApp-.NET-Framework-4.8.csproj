@@ -46,6 +46,7 @@
     <Compile Include="ConsoleMethods\_ConsoleMethods.cs" />
     <Compile Include="Datatypes\DataType.cs" />
     <Compile Include="Datatypes\TypeCasting.cs" />
+    <Compile Include="OperatorsAndUses\Operators.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StringMethods\Concatenation.cs" />
@@ -58,7 +59,6 @@
     <Folder Include="DecisionMaking\" />
     <Folder Include="Methods\" />
     <Folder Include="Oops\" />
-    <Folder Include="Operators\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

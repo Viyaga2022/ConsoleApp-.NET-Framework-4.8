@@ -2,7 +2,7 @@
 //using ConsoleApp_.NET_Framework_4._8.Datatypes;
 //using ConsoleApp_.NET_Framework_4._8.String;
 using ConsoleApp_.NET_Framework_4._8.ConsoleMethods;
-
+using ConsoleApp_.NET_Framework_4._8.OperatorsAndUses;
 
 namespace ConsoleApp_.NET_Framework_4._8
 {
@@ -16,9 +16,8 @@ namespace ConsoleApp_.NET_Framework_4._8
              *  
              ****************************************************************/
 
-            _ConsoleMethods myObj = new _ConsoleMethods("Mohan", 23, "mohan@gmail.com", 9047123456);
-            myObj.Hi();
-            myObj.GetInput();
+            Operators myObj = new Operators(10,5);
+            myObj.Arithmatic();
         }
     }
 }

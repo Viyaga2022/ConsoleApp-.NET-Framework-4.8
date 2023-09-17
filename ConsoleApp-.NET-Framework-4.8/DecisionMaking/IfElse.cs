@@ -17,7 +17,7 @@ namespace ConsoleApp_.NET_Framework_4._8.DecisionMaking
             B = b;
         }
 
-        public void Compare ()
+        public void Compare1()
         {
             if (A == B)
             {

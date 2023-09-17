@@ -1,8 +1,6 @@
 ﻿using System;
-//using ConsoleApp_.NET_Framework_4._8.Datatypes;
-//using ConsoleApp_.NET_Framework_4._8.String;
-using ConsoleApp_.NET_Framework_4._8.ConsoleMethods;
-using ConsoleApp_.NET_Framework_4._8.Operators;
+using ConsoleApp_.NET_Framework_4._8.DecisionMaking;
+
 
 namespace ConsoleApp_.NET_Framework_4._8
 {
@@ -16,8 +14,8 @@ namespace ConsoleApp_.NET_Framework_4._8
              *  
              ****************************************************************/
 
-            Arithmatic myObj = new Arithmatic(10,5);
-            myObj.ArithmaticOps();
+            IfElse myObj = new IfElse(23, 20);
+            myObj.Compare();
         }
     }
 }

@@ -8,8 +8,10 @@ namespace ConsoleApp_.NET_Framework_4._8.Operators
 {
     internal class Arithmatic
     {
-        protected int A;
+        protected int A; 
         protected int B;
+
+        //"A" and "B" is Accessible Within this Class or in a class that is inherited from this class.
 
         public Arithmatic(int a, int b)
         {

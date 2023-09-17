@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp_.NET_Framework_4._8.Operators
 {
-    internal class Comparision : Unary
+    internal class Comparision : Unary //Multi Level Inheritance
     {
         public Comparision (int a, int b) : base (a, b)
         {

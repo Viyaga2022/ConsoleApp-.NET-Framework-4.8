@@ -8,8 +8,8 @@ namespace ConsoleApp_.NET_Framework_4._8.DecisionMaking
 {
     internal class IfElse
     {
-        private readonly int A;
-        private readonly int B;
+        private readonly int A; //Encapsulation
+        private readonly int B; //Encapsulation
 
         public IfElse(int a, int b)
         {

@@ -1,6 +1,6 @@
 ﻿using System;
 using ConsoleApp_.NET_Framework_4._8.DecisionMaking;
-
+using ConsoleApp_.NET_Framework_4._8.Operators;
 
 namespace ConsoleApp_.NET_Framework_4._8
 {
@@ -14,9 +14,8 @@ namespace ConsoleApp_.NET_Framework_4._8
              *  
              ****************************************************************/
 
-            SwitchAndTernary myObj = new SwitchAndTernary(16, 20);
-            myObj.Compare1(); // This function is from base class
-            myObj.Compare2(); // This function is from derived class
+            Unary myObj = new Unary(10, 5);
+            myObj.UnaryOpr();
         }
     }
 }

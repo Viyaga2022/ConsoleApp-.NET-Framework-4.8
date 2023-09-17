@@ -8,8 +8,8 @@ namespace ConsoleApp_.NET_Framework_4._8.Operators
 {
     internal class Arithmatic
     {
-        private readonly int A;
-        private readonly int B;
+        protected int A;
+        protected int B;
 
         public Arithmatic(int a, int b)
         {

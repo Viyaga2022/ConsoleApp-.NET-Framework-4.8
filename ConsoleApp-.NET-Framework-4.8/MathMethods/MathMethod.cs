@@ -8,10 +8,10 @@ namespace ConsoleApp_.NET_Framework_4._8.MathMethods
 {
     internal class MathMethod
     {
-        private int A;
-        private int B;
+        private double A;
+        private double B;
 
-        public MathMethod(int a, int b) 
+        public MathMethod(double a, double b) 
         {
             A = a;
             B = b;
@@ -32,6 +32,9 @@ namespace ConsoleApp_.NET_Framework_4._8.MathMethods
 
             Console.WriteLine($"Math.Abs(A). It returns the positive value of A. " +
                 $"Positive Value of A: {Math.Abs(A)}");
+
+            Console.WriteLine($"Math.Round(A). It rounds a number to the nearest whole number. " +
+                $"Round of A: {Math.Round(A)}");
         }
     }
 }

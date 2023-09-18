@@ -14,7 +14,7 @@ namespace ConsoleApp_.NET_Framework_4._8
              *  
              ****************************************************************/
 
-            MathMethod myObj = new MathMethod(25, 56);
+            MathMethod myObj = new MathMethod(21.534, 56.68);
             myObj.MathFun();
         }
     }

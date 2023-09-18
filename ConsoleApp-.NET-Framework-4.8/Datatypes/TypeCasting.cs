@@ -9,15 +9,15 @@ namespace ConsoleApp_.NET_Framework_4._8.Datatypes
     internal class TypeCasting
     {
 
-      /* 
-       *  Type Casting =========================================================
-       *  1. Implicit Casting
-       *  2. Explicit Casting
-       *  3. Number To String
-       *  4. string To Number
-       */
+        /* 
+         *  Type Casting =========================================================
+         *  1. Implicit Casting
+         *  2. Explicit Casting
+         *  3. Number To String
+         *  4. string To Number
+         */
 
-        //1. Implicit Casting  =============
+        //1. Implicit Casting:  char -> int -> long -> float -> double
         public long IntToLong(int a)
         {
             long b = a;
@@ -57,7 +57,7 @@ namespace ConsoleApp_.NET_Framework_4._8.Datatypes
             return a;
         }
 
-        /* 2. Explicit Casting ======================================== */
+        /* 2. Explicit Casting: double -> float -> long -> int -> char */
 
         public int DoubleToInt(double x)
         {

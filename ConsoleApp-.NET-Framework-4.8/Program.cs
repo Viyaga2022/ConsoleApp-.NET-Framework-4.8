@@ -15,11 +15,15 @@ namespace ConsoleApp_.NET_Framework_4._8
              *  
              ****************************************************************/
 
-            string[] array = { "string 1", "string 2", "string 3", "string 4", "string 5" };
+            WhileLoop myObj = new WhileLoop();
 
-            ForEachLoop myObj = new ForEachLoop(array);
+            Console.WriteLine($"================ While Loop ==================\n");
 
-            myObj.ForEach();
+            myObj.RunWhileLoop();
+
+            Console.WriteLine($"\n============== Do While Loop ================\n");
+
+            myObj.RunDoWhileLoop();
         }
     }
 }

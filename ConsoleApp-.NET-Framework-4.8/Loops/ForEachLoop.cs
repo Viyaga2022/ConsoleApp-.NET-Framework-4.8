@@ -21,7 +21,7 @@ namespace ConsoleApp_.NET_Framework_4._8.Loops
 
             foreach (string str in LoopArray)
             {
-                Console.WriteLine($"This is {str}");
+                Console.WriteLine($"ForEachLoop: This is {str}");
             }
         }
     }

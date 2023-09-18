@@ -50,6 +50,7 @@
     <Compile Include="DecisionMaking\SwitchAndTernary.cs" />
     <Compile Include="Operators\Arithmatic.cs" />
     <Compile Include="Operators\Comparision.cs" />
+    <Compile Include="Operators\Logical.cs" />
     <Compile Include="Operators\Unary.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

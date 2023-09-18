@@ -14,8 +14,8 @@ namespace ConsoleApp_.NET_Framework_4._8
              *  
              ****************************************************************/
 
-            Comparision myObj = new Comparision(20, 10);
-            myObj.ComparisionOpr();
+            Logical myObj = new Logical(5, 20);
+            myObj.LogicalOpr();
         }
     }
 }

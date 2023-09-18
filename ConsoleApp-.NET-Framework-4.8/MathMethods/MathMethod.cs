@@ -8,8 +8,8 @@ namespace ConsoleApp_.NET_Framework_4._8.MathMethods
 {
     internal class MathMethod
     {
-        private double A;
-        private double B;
+        private double A;   //Encapsulation
+        private double B;   // This code is only Accessible within this class
 
         public MathMethod(double a, double b) 
         {

@@ -48,6 +48,7 @@
     <Compile Include="Datatypes\TypeCasting.cs" />
     <Compile Include="DecisionMaking\IfElse.cs" />
     <Compile Include="DecisionMaking\SwitchAndTernary.cs" />
+    <Compile Include="Loops\ForEachLoop.cs" />
     <Compile Include="Loops\ForLoop.cs" />
     <Compile Include="MathMethods\MathMethod.cs" />
     <Compile Include="Operators\Arithmatic.cs" />

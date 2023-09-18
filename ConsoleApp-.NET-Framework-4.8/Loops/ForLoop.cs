@@ -8,7 +8,7 @@ namespace ConsoleApp_.NET_Framework_4._8.Loops
 {
     public class ForLoop
     {
-        public void Run()
+        public void ForLoopRun()
         {
             for(int i = 1; i <= 10; i++)
             {

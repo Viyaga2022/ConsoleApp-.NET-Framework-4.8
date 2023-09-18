@@ -15,16 +15,11 @@ namespace ConsoleApp_.NET_Framework_4._8
              *  
              ****************************************************************/
 
-            ForLoop myObj = new ForLoop();
+            string[] array = { "string 1", "string 2", "string 3", "string 4", "string 5" };
 
-            Console.WriteLine("================= For Loop =================\n");
+            ForEachLoop myObj = new ForEachLoop(array);
 
-            myObj.Run();
-
-            Console.WriteLine("\n==============Nested For Loop================\n");
-
-            myObj.NestedForLoop();
-        
+            myObj.ForEach();
         }
     }
 }

@@ -6,8 +6,14 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp_.NET_Framework_4._8.Loops
 {
-    internal class WhileLoop
+    internal class WhileLoop : ForEachLoop
     {
+
+        public WhileLoop(string[] strArray) : base(strArray)
+        {
+
+        }
+
         public void RunWhileLoop ()
         {
             int i = 1;

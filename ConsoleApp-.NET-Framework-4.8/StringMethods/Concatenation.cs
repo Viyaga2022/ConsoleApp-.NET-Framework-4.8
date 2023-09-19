@@ -18,7 +18,7 @@ namespace ConsoleApp_.NET_Framework_4._8.StringMethods
                 str += strings[i]; // string + string + string
             }
 
-            str = str + " (These Strings were Cancatinated with \"+\" symbol)";
+            str += " (These Strings were Cancatinated with \"+\" symbol)";
 
             return str;
         }

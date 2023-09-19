@@ -13,17 +13,17 @@ namespace ConsoleApp_.NET_Framework_4._8.StringMethods
         {
             string str = string.Empty;
 
-            for (int i = 0; i < strings.Length; i++)
+            for (int i = 0; i < strings.Length; i++)  //For Loop
             {
-                str += strings[i]; // string + string + string
+                str += strings[i];      // += Assignment Operator
             }
 
             str += " (These Strings were Cancatinated with \"+\" symbol)";
 
-            return str;
+            return str;     //return string
         }
 
-        public string Interpolation(string[] strings)
+        public string Interpolation(string[] strings) // Public Method
         {
             string str = string.Concat(strings);
 

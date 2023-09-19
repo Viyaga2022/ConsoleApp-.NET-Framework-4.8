@@ -6,16 +6,16 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp_.NET_Framework_4._8.Operators
 {
-    internal class Logical : Comparision
+    internal class Logical : Comparision    // Inheritance
     {
-        public Logical (int a, int b) : base (a, b)
+        public Logical (int a, int b) : base (a, b) //Constructor
         {
 
         }
 
-        public void LogicalOpr ()
+        public void LogicalOpr ()       //Public Method
         {
-            Console.WriteLine($"A = {A}, B = {B}");
+            Console.WriteLine($"A = {A}, B = {B}");     //Interpolation
 
             // And &&
             if (A > 10 && B > 10)

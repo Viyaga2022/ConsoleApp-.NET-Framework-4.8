@@ -8,16 +8,16 @@ namespace ConsoleApp_.NET_Framework_4._8.DecisionMaking
 {
     internal class IfElse
     {
-        private readonly int A; //Encapsulation
-        private readonly int B; //Encapsulation
+        private readonly int A; // Encapsulation
+        private readonly int B; // These fields are accessible within the class only
 
-        public IfElse(int a, int b)
+        public IfElse(int a, int b) // Constructor With Parameters
         {
             A = a;
             B = b;
         }
 
-        public void Compare1()
+        public void Compare1()  // Public method without return value
         {
             if (A == B)
             {

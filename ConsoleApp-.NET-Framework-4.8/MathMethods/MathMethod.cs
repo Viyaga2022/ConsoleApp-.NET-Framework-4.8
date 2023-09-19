@@ -11,15 +11,15 @@ namespace ConsoleApp_.NET_Framework_4._8.MathMethods
         private readonly double A;   //Encapsulation
         private readonly double B;   // This code is only Accessible within this class
 
-        public MathMethod(double a, double b) 
+        public MathMethod(double a, double b)   //Constructor with parameter
         {
             A = a;
             B = b;
         }
 
-        public void MathFun()
+        public void MathFun()   // Public Method
         {
-            Console.WriteLine($"A = {A}, B = {B}");
+            Console.WriteLine($"A = {A}, B = {B}");     // Interpolation
 
             Console.WriteLine($"Math.Max(A, B). It returns the highest value of A and B. " +
                 $"Highest Value: {Math.Max(A, B)}");

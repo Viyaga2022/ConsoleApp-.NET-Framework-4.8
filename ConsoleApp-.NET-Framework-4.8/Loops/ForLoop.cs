@@ -8,7 +8,7 @@ namespace ConsoleApp_.NET_Framework_4._8.Loops
 {
     public class ForLoop
     {
-        public void ForLoopRun()
+        public void ForLoopRun()        // Public Method
         {
             for(int i = 1; i <= 10; i++)
             {
@@ -17,7 +17,7 @@ namespace ConsoleApp_.NET_Framework_4._8.Loops
                     continue;
                 }
 
-                Console.WriteLine($"For Loop runs {i} time.");            
+                Console.WriteLine($"For Loop runs {i} time.");   //Concatenation: Interpolation     
             }
         }
 

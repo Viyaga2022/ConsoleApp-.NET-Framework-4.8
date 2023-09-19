@@ -8,14 +8,17 @@ namespace ConsoleApp_.NET_Framework_4._8.Operators
 {
     internal class Comparision : Unary //Multi Level Inheritance
     {
-        public Comparision (int a, int b) : base (a, b)
+        public Comparision (int a, int b) : base (a, b) //Constructor.
+                                                        //Arguments passed to the Base class
         {
 
         }
 
-        public void ComparisionOpr ()
+        public void ComparisionOpr ()       //Public Method
         {
-            Console.WriteLine($"A = {A}, B = {B}");
+            Console.WriteLine($"A = {A}, B = {B}");     //Concatenation: Interpolation
+
+            // ====================== Ternary Operator =====================
 
             // Equal to
             string result1 = (A == B) ? "A == B: A equal to B": "A == B: A not equal to B";

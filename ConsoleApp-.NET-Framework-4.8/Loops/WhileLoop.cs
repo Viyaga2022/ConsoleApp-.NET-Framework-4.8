@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp_.NET_Framework_4._8.Loops
 {
-    internal class WhileLoop : ForEachLoop
+    internal class WhileLoop : ForEachLoop  // Multilevel Inheritance
     {
 
-        public WhileLoop(string[] strArray) : base(strArray)
+        public WhileLoop(string[] strArray) : base(strArray) // Constructor
         {
 
         }
 
-        public void RunWhileLoop ()
+        public void RunWhileLoop ()     // Method
         {
             int i = 1;
 
@@ -30,7 +30,7 @@ namespace ConsoleApp_.NET_Framework_4._8.Loops
         {
             int i = 1;
 
-            do          // Run the code 1st time then continue the loop
+            do          // Run the code 1st time then check the condition then continue the loop
             {
                 Console.WriteLine($"Do While Loop runs {i} time.");
 

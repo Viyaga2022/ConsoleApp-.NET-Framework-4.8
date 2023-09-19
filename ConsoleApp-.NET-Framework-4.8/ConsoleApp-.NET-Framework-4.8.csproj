@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ConsoleMethods\_ConsoleMethods.cs" />
+    <Compile Include="ConsoleMethods\ConsoleOprs.cs" />
     <Compile Include="Datatypes\DataType.cs" />
     <Compile Include="Datatypes\TypeCasting.cs" />
     <Compile Include="DecisionMaking\IfElse.cs" />

@@ -18,7 +18,8 @@ namespace ConsoleApp_.NET_Framework_4._8.Datatypes
          */
 
         //1. Implicit Casting:  char -> int -> long -> float -> double
-        public long IntToLong(int a)
+
+        public long IntToLong(int a)    // Public Method With Return Value
         {
             long b = a;
             return b;

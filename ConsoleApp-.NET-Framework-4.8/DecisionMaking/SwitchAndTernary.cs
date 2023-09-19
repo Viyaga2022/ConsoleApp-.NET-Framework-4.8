@@ -6,19 +6,20 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp_.NET_Framework_4._8.DecisionMaking
 {
-    internal class SwitchAndTernary : IfElse  // Single Inheritance
+    internal class SwitchAndTernary : IfElse  // Single Inheritance.
+                                              // IfElse: Base class, SwitchAndTernary: Derived Class
     {
-        private readonly int A;
-        private readonly int B;
+        private readonly int A;     // Encapsulation. Private Access Modifier. 
+        private readonly int B;     // A and B are accessible within this class only
 
         // Constructor ==========
-        public SwitchAndTernary(int a, int b) : base(a, b)  // argument passed to the base class
+        public SwitchAndTernary(int a, int b) : base(a, b)  // Argument passed to the base class
         {
             A = a;
             B = b;
         }
 
-        public void Compare2()
+        public void Compare2()      // Public Method
         {
 
             // Ternary operator =============

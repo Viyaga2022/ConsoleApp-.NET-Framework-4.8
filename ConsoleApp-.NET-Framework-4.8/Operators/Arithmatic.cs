@@ -11,18 +11,19 @@ namespace ConsoleApp_.NET_Framework_4._8.Operators
         protected int A; 
         protected int B;
 
-        //"A" and "B" is Accessible Within this Class or in a class that is inherited from this class.
+        //"A" and "B" is Accessible Within this Class
+        //or in a class that is inherited from this class.
 
-        public Arithmatic(int a, int b)
+        public Arithmatic(int a, int b)     //Constructor with parameters
         {
             A = a; 
             B = b; 
         }
 
-        public void ArithmaticOps ()
+        public void ArithmaticOps ()    // Public Method
         {
             int X = A + B;
-            Console.WriteLine($"Add(+): {X}");
+            Console.WriteLine($"Add(+): {X}");      //Concatenation: Interpolation
             X = A - B;
             Console.WriteLine($"Sub(-): {X}");
             X = A * B;

@@ -6,14 +6,15 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp_.NET_Framework_4._8.ConsoleMethods
 {
-    internal class _ConsoleMethods
+    internal class ConsoleOprs
     {
-        private readonly string Name;
-        private readonly int Age;
+        private readonly string Name; //Encapsulation
+        private readonly int Age;       // These code only accessible within the class
         private readonly string Email;
         private readonly long PhoneNo;
 
-        public _ConsoleMethods (string name, int age, string email, long phone_no)
+        // Constructor
+        public ConsoleOprs (string name, int age, string email, long phone_no) // Parameters
         {
             Name = name;
             Age = age;
@@ -21,7 +22,7 @@ namespace ConsoleApp_.NET_Framework_4._8.ConsoleMethods
             PhoneNo = phone_no;
         }
         
-        public void Hi ()
+        public void Hi()       //Public Mehtod
         {
             Console.WriteLine("Hello");
             Console.Write($"I am {Name}. ");
@@ -31,7 +32,7 @@ namespace ConsoleApp_.NET_Framework_4._8.ConsoleMethods
             Console.WriteLine("----------------------------------------------------------");
         }
 
-        public void GetInput ()
+        public void GetInput ()     
         {
             Console.WriteLine("What is your name?");
             string name = Console.ReadLine();

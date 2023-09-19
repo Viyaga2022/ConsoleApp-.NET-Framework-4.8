@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Arrays\ArrayMethods.cs" />
     <Compile Include="ConsoleMethods\ConsoleOprs.cs" />
     <Compile Include="Datatypes\DataType.cs" />
     <Compile Include="Datatypes\TypeCasting.cs" />
@@ -64,7 +65,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Arrays\" />
     <Folder Include="Collections\" />
     <Folder Include="Methods\" />
     <Folder Include="Oops\" />

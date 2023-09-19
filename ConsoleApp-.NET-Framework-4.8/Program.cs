@@ -1,4 +1,5 @@
 ﻿using System;
+using ConsoleApp_.NET_Framework_4._8.Arrays;
 using ConsoleApp_.NET_Framework_4._8.Loops;
 
 
@@ -14,17 +15,15 @@ namespace ConsoleApp_.NET_Framework_4._8
              *  
              ****************************************************************/
 
-            string[] array = { "string 1", "string 2", "string 3", "string 4", "string 5" };
+            string[] strArray = { "BMW", "Volvo", "Ford", "Mazda", "Audi" };
 
-            WhileLoop myObj = new WhileLoop(array);
+            int[] intArray = { 34, 13, 98, 30, 63, 894, 43 };
 
-            Console.WriteLine($"================ While Loop: Continue ==================\n");
+            int[,] mulIntArray = {{1, 2, 3}, {4, 5, 6}};
 
-            myObj.ForLoopRun(); // With Continue Statement
+            ArrayMethods myObj = new ArrayMethods(strArray, intArray, mulIntArray);
 
-            Console.WriteLine($"\n============== Do While Loop: Break; ================\n");
-
-            myObj.NestedForLoop(); // With Break Statement
+            myObj.ArrayOprs();
         }
     }
 }
